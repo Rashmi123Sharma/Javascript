@@ -32,6 +32,36 @@
      /*let [a,b,c] = arr;
      console.log(a,b,c);*/
 
+// Removing duplicates form an array..
+/*arr = [2,3,2,4,3,5];
+arr.sort();
+x = [];
+
+for (var i=0;i<=arr.length;i++)
+{
+    if (arr [i]!= arr[i+1])
+    {
+        console.log(x.push(arr[i]));
+
+    }
+}
+console.log(x);*/
+
+ /*let arr = [2,3,2,4,3,5];
+console.log(...new Set(arr))*/
+
+/*let arr = [1,2,7,9,6,4,2,9];
+
+let uniqueValues = [];
+
+for(let i = 0; i < arr.length; i++){
+  if(!uniqueValues.includes(arr[i])){
+    uniqueValues.push(arr[i]);
+  }
+}
+
+console.log(uniqueValues);*/
+
      
      
      /*Spread operator: it makes the copy of an object and an array*/
